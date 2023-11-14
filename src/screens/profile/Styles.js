@@ -1,0 +1,123 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'white',
+  },
+  header:{
+    fontFamily: 'Montserrat-Medium',
+    fontSize: 16,
+    color: '#727682',
+  },
+  notification:{
+    width: 16,
+    height: 16,
+    borderRadius: 8,
+    backgroundColor: '#6231AD',
+    top: -34,
+    left: 12,
+    alignItems: 'center',
+  },
+  messages:{
+    color: '#FFFFFF',
+    fontSize: 10,
+    fontWeight: 'bold',
+    top: 1,
+  },
+  circle:{
+    top: -30,
+    right: -30,
+    borderWidth: 3,
+    width: 40,
+    height: 40,
+    borderRadius: 25,
+    borderColor: '#EEEAF3',
+    alignItems: 'center',
+    justifyContent: 'center',
+    zIndex: 1,
+    backgroundColor: 'white',
+  },
+  name:{
+    fontFamily: 'Montserrat-Medium',
+    fontSize: 16,
+    color: '#333333',
+    alignSelf: 'center',
+  },
+  pts:{
+    fontFamily: 'Montserrat-Medium',
+    fontSize: 14,
+    color: '#727682',
+    alignSelf: 'center',
+    marginTop: 10,
+  },
+  bio:{
+    fontFamily: 'Montserrat-Medium',
+    fontSize: 14,
+    color: '#727682',
+    alignSelf: 'center',
+    marginTop: 20,
+  },
+  Logoutcontainter:{
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 10,
+  },
+  logout:{
+    fontFamily: 'Montserrat-Medium',
+    fontSize: 14,
+    color: '#727682',
+    marginLeft: 8,
+  },
+  starimg:{
+    width: 40,
+    height: 40,
+    alignSelf: 'center',
+    top: 20,
+    zIndex: 1,
+  },
+  card:{
+    borderWidth: 2,
+    borderColor: '#EEEAF3',
+    borderRadius: 6,
+    paddingHorizontal: 20,
+    paddingVertical: 28,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  cardheader:{
+    fontFamily: 'Montserrat-SemiBold',
+    fontSize: 14,
+    color: '#727682',
+    marginLeft: 8,
+  },
+  percent:{
+    fontFamily: 'Montserrat-SemiBold',
+    fontSize: 24,
+    color: '#4F4F4F',
+    marginLeft: 8,
+  },
+  downpercentbox:{
+    width: 40,
+    height: 40,
+    borderRadius: 50,
+    backgroundColor: '#FFEBEB',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  box:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  upcontainerbox:{
+    width: 40,
+    height: 40,
+    borderRadius: 50,
+    backgroundColor: '#EDFAED',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }
+
+});
