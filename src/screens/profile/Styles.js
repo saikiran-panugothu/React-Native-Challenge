@@ -6,12 +6,12 @@ export const styles = StyleSheet.create({
     height: '100%',
     backgroundColor: 'white',
   },
-  header:{
+  header: {
     fontFamily: 'Montserrat-Medium',
     fontSize: 16,
     color: '#727682',
   },
-  notification:{
+  notification: {
     width: 16,
     height: 16,
     borderRadius: 8,
@@ -20,13 +20,13 @@ export const styles = StyleSheet.create({
     left: 12,
     alignItems: 'center',
   },
-  messages:{
+  messages: {
     color: '#FFFFFF',
     fontSize: 10,
     fontWeight: 'bold',
     top: 1,
   },
-  circle:{
+  circle: {
     top: -30,
     right: -30,
     borderWidth: 3,
@@ -39,45 +39,45 @@ export const styles = StyleSheet.create({
     zIndex: 1,
     backgroundColor: 'white',
   },
-  name:{
+  name: {
     fontFamily: 'Montserrat-Medium',
     fontSize: 16,
     color: '#333333',
     alignSelf: 'center',
   },
-  pts:{
+  pts: {
     fontFamily: 'Montserrat-Medium',
     fontSize: 14,
     color: '#727682',
     alignSelf: 'center',
     marginTop: 10,
   },
-  bio:{
+  bio: {
     fontFamily: 'Montserrat-Medium',
     fontSize: 14,
     color: '#727682',
     alignSelf: 'center',
     marginTop: 20,
   },
-  Logoutcontainter:{
+  Logoutcontainer: {
     flexDirection: 'row',
     justifyContent: 'center',
     marginTop: 10,
   },
-  logout:{
+  logout: {
     fontFamily: 'Montserrat-Medium',
     fontSize: 14,
     color: '#727682',
     marginLeft: 8,
   },
-  starimg:{
+  starimg: {
     width: 40,
     height: 40,
     alignSelf: 'center',
     top: 20,
     zIndex: 1,
   },
-  card:{
+  card: {
     borderWidth: 2,
     borderColor: '#EEEAF3',
     borderRadius: 6,
@@ -86,19 +86,19 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
-  cardheader:{
+  cardheader: {
     fontFamily: 'Montserrat-SemiBold',
     fontSize: 14,
     color: '#727682',
     marginLeft: 8,
   },
-  percent:{
+  percent: {
     fontFamily: 'Montserrat-SemiBold',
     fontSize: 24,
     color: '#4F4F4F',
     marginLeft: 8,
   },
-  downpercentbox:{
+  downpercentbox: {
     width: 40,
     height: 40,
     borderRadius: 50,
@@ -106,18 +106,17 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  box:{
+  box: {
     flexDirection: 'row',
     alignItems: 'center',
     marginTop: 10,
   },
-  upcontainerbox:{
+  upcontainerbox: {
     width: 40,
     height: 40,
     borderRadius: 50,
     backgroundColor: '#EDFAED',
     justifyContent: 'center',
     alignItems: 'center',
-  }
-
+  },
 });

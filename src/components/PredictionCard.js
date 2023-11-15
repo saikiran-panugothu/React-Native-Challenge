@@ -52,7 +52,6 @@ const styles = StyleSheet.create({
     width: '110%',
     height: '58%',
     elevation: 10,
-    zIndex: 1,
     position: 'absolute',
     bottom: 0,
     borderRadius: 32,
